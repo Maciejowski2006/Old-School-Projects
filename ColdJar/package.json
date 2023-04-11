@@ -1,0 +1,16 @@
+{
+  "name": "cold-jar",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "c_ts": "tsc -w",
+    "c_scss": "sass -w src/styles/scss:src/styles/css",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.49.0",
+    "typescript": "^4.5.5",
+    "vite": "^2.7.2"
+  }
+}

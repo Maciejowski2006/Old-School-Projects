@@ -1,0 +1,31 @@
+main {
+  width: 90%;
+  margin-top: 50px;
+}
+
+table {
+  width: 100%;
+}
+table a {
+  color: #0097e6;
+}
+
+table, td {
+  border: 1px solid #0097e6;
+}
+
+td {
+  padding: 5px 10px;
+  min-width: 150px;
+  min-height: 50px;
+}
+
+h4 {
+  margin: 15px;
+}
+
+article {
+  overflow: auto;
+}
+
+/*# sourceMappingURL=pricing.css.map */

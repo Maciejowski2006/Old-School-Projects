@@ -26,3 +26,8 @@
 /unity-quiz/dist-ssr
 /unity-quiz/*.local
 /unity-quiz/.idea
+
+/ColdJar/.DS_Store
+/ColdJar/dist
+/ColdJar/dist-ssr
+/ColdJar/*.local

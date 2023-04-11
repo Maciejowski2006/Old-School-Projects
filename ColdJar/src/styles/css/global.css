@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  font-size: 16px;
+  background-color: #2f3640;
+  color: #7f8fa6;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 100px;
+  list-style: none;
+  font-size: 1.5rem;
+}
+nav ul li {
+  padding: 5px;
+}
+nav ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main {
+  width: 60%;
+  margin-top: 200px;
+  font-size: 2em;
+  font-weight: 300;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+article {
+  margin-bottom: 100px;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 8px;
+  background-color: #353b48;
+  z-index: -5;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #7f8fa6;
+}
+a:hover {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #7f8fa6;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #dcdde1;
+}
+
+/*# sourceMappingURL=global.css.map */

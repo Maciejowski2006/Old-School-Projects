@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>ColdJar</title>
+
+	<link rel="icon" type="image/svg+xml" href="./src/assets/images/favicon.svg" />
+	<link rel="stylesheet" href="../styles/css/global.css">
+	<link rel="stylesheet" href="../styles/css/contact.css">
+	<script src="../scripts/js/global.js"></script>
+	<script src="../scripts/js/contact.js" defer></script>
+</head>
+<body onload="main()">
+<div id="container">
+	<nav>
+		<ul>
+			<li><a href="../../index.html">Home</a></li>
+			<li><a href="./services.html">Services</a></li>
+			<li><a href="pricing.html">Pricing</a></li>
+			<li><a href="./about.html">About</a></li>
+			<li><a href="./contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<main>
+		<article>
+			<h2>Want to talk? Email us!</h2>
+			<form>
+				<input type="text" id="first_name" class="info" placeholder="First name">
+				<input type="text" id="last_name" class="info" placeholder="Last name">
+				<br>
+				<input type="email" id="email" placeholder="Your email">
+				<br>
+				<textarea id="message" rows="10" class="info" placeholder="Your message"></textarea>
+				<br>
+				<input type="submit" value="Send!">
+			</form>
+			<span id="output"></span>
+		</article>
+	</main>
+	<footer>
+		Made by Maciej Chmiel and Kacper Leśniewski
+	</footer>
+</div>
+</body>
+</html>

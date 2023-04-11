@@ -1,0 +1,52 @@
+label {
+  margin: 0 5px 0 0;
+}
+
+input, textarea, input[type=submit] {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 1.25rem;
+}
+
+input[type=text], input[type=email], textarea {
+  height: 39px;
+  width: 265px;
+  background-color: #353b48;
+  color: #dcdde1;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px 2px;
+}
+
+#email {
+  width: 540px;
+}
+
+textarea {
+  width: 540px;
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 10px 15px;
+  margin-top: 5px;
+  background-color: #353b48;
+  color: #dcdde1;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input[type=submit]:active {
+  background-color: #0097e6;
+}
+
+span {
+  display: block;
+  margin-top: 25px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/*# sourceMappingURL=contact.css.map */
