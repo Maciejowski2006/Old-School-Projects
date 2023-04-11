@@ -1,6 +1,9 @@
 # Cold Jar
 Web-Dev startup website for a school project.
 
+# Co-creator
+[@S4vyss](https://github.com/S4vyss)
+
 # Disclaimer
 We obviously didn't do anything for any company mentioned on the website. It's just a placeholder since we had to have something there. Also all the logos belong to their respective owner(Red Hat Inc., Vite, Unity Technologies, Lutris).
 
