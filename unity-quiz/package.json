@@ -1,0 +1,19 @@
+{
+  "name": "quiz",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "npm run build & git add -A & git commit -m 'Deploy' & git subtree push --prefix dist origin gh-pages"
+  },
+  "dependencies": {
+    "vue": "^3.2.31"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "dart-sass": "^1.25.0",
+    "sass": "^1.50.0",
+    "sass-loader": "^12.6.0",
+    "vite": "^2.9.1"
+  }
+}

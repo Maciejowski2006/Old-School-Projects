@@ -1,20 +1,28 @@
+# Global
+**/node_modules
+
+# Project specific
 /Andora/.DS_Store
-/Andora/node_modules
-/Andora//dist
+/Andora/dist
 /Andora/.env.local
 /Andora/.env.*.local
 /Andora/npm-debug.log*
 /Andora/yarn-debug.log*
 /Andora/yarn-error.log*
-/Andora/pnpm-debug.log*
 /Andora/.idea
-/Andora/.vscode
-/Andora/*.suo
-/Andora/*.ntvs*
-/Andora/*.njsproj
-/Andora/*.sw?
 
 /sanktuarium-maryjne/.cache/
 /sanktuarium-maryjne/.idea/
 /sanktuarium-maryjne/node_modules/
 /sanktuarium-maryjne/public/
+
+/unity-quiz/*.log
+/unity-quiz/npm-debug.log*
+/unity-quiz/yarn-debug.log*
+/unity-quiz/yarn-error.log*
+/unity-quiz/lerna-debug.log*
+/unity-quiz/.DS_Store
+/unity-quiz/dist
+/unity-quiz/dist-ssr
+/unity-quiz/*.local
+/unity-quiz/.idea
