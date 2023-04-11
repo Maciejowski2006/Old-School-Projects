@@ -1,0 +1,28 @@
+.entry {
+  box-sizing: border-box;
+  background-color: #dfe6e9;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  padding: 20px;
+}
+
+.title {
+  margin: 20px;
+  font-weight: 600;
+  font-size: 1.25em;
+}
+
+.description {
+  margin: 20px 0 0 0;
+}
+
+.info {
+  font-size: 0.75em;
+  color: #636e72;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+/*# sourceMappingURL=blog.css.map */

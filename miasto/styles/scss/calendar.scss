@@ -1,0 +1,53 @@
+#calendar
+{
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+
+	background-color: #b2bec3cc;
+	padding: 16px;
+	border-radius: 10px;
+}
+.day
+{
+	box-sizing: border-box;
+	min-height: 70px;
+	opacity: 100%;
+	padding: 5px;
+	color: #636e72;
+}
+.header
+{
+	height: 28px;
+	color: #2d3436;
+}
+.currentMonth
+{
+	color: #2d3436;
+}
+.sunday
+{
+	color: #d63031;
+}
+.today
+{
+	border: #d63031 7px solid;
+	border-radius: 5px;
+}
+.event
+{
+	background-color: #0984e3;
+	color: #dfe6e9;
+	padding: 5px;
+	border-radius: 5px;
+	margin-top: 2px;
+
+	a, a:visited
+	{
+		text-decoration: none;
+		color: #dfe6e9;
+	}
+	a:hover
+	{
+		text-decoration: underline;
+	}
+}
